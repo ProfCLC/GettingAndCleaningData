@@ -15,7 +15,7 @@ The goals of this project are fully explicatd by the course instructor  [here](h
 4. Appropriately label the data set with descriptive variable names 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
-##Dependencies Required forRunning the R Script
+##Dependencies Required for Running the R Script
 `run_analysis.R` had two dependencies: `data.table` and `reshape2`. The program first checks for these packages and then installs and initializes them prior to running the rest of the script.
 
 ###Other Requirements and Information
