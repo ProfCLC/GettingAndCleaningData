@@ -43,7 +43,7 @@ at [this link](https://coursera-forum-screenshots.s3.amazonaws.com/ab/a2776024af
 
 ###Code Book Variable Specifics
 
-Within the Test and Training data files, the following specifics of measurement are provided
+Within the Test and Training data files, the following specifics of measurement are provided:
 
 * 'subject_train'/'subject_test' files: Individual rows identify the test subjects (range from 1 to 30)
 
@@ -52,4 +52,22 @@ Within the Test and Training data files, the following specifics of measurement 
 * 'body__acc files: These provide body acceleration data calculated by subtracting gravity from the total acceleration
 
 * 'body__gyro files: These provide angular velocity in radians/second
+
+###Final Variable Set
+
+The final variable set is exported as "tidy_dat.txt" with the following variables:
+
+* Subject: This provides the subject number (1-30) that has been summarized to produce the final data set
+
+...and the following columns are summaries of the means for these subjects for each of these variables (in order):
+
+* LAYING
+* SITTING
+* STANDING
+* WALKING
+* WALKING_DOWNSTAIRS
+* WALKING_UPSTAIRS
+
+These means are in the units specified above under "Code Book Variable Specifics"
+
 
